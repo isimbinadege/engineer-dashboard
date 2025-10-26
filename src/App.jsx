@@ -9,7 +9,7 @@ function App() {
       <Navbar theme={theme} toggleTheme={toggleTheme} />
     
      <main className="p-4 grid gap-4 md:grid-cols-2">
-        <GitHubCard username="PUT_YOUR_GITHUB_USERNAME_HERE" />
+        <GitHubCard username="isimbinadege" />
       </main>
 </div>
   );
