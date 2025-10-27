@@ -56,7 +56,7 @@ export default function WeatherCard() {
       : "🌈 Enjoy your day!";
 
   return (
-    <div className="max-w-sm mx-auto mt-10 p-6 rounded-xl shadow-lg bg-white dark:bg-gray-800 text-center">
+    <div className="max-w-sm mx-auto p-6 rounded-xl shadow-lg bg-white dark:bg-gray-800 text-center dark:text-gray-200">
       <h2 className="text-xl font-semibold mb-2">{name}</h2>
 
       <img

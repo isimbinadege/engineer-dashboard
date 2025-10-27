@@ -39,7 +39,7 @@ export default function GitHubCard({ username }) {
       />
       <h2 className="text-xl font-semibold text-center mt-2">{data.login}</h2>
       <div className="flex justify-around mt-4">
-        <p>Repositories {data.public_repos}</p>
+        <p>Repositories: {data.public_repos}</p>
         <p>Followers: {data.followers}</p>
         <p>Following: {data.following}</p>
       </div>
