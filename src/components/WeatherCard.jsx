@@ -5,7 +5,7 @@ export default function WeatherCard() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const apiKey = "56f05b02c28ea69e6c577305d35d0dc3"; // ✅ Your real API key
+  const apiKey = "56f05b02c28ea69e6c577305d35d0dc3"; 
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
